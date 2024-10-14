@@ -43,15 +43,17 @@ In the root of the project folder :
 ## To play the game 
 
 #### How to use the keyboard keys and the clicks on screen
-* after launching it, you have to **click on the different texts or rectangle buttons** to perfom the task you want 
-* they **are shortcuts** not to lose time waiting for the menus to work _(these are in the **Chess_Game.c** file at the **SDL_KEYDOWN** part during the main loop of the game)_
+* After launching it, you have to **click on the different texts or rectangle buttons** to perfom the task you want 
+* They **are shortcuts** not to lose time waiting for the menus to work _(these are in the **Chess_Game.c** file at the **SDL_KEYDOWN** part during the main loop of the game)_
     * 
     *
     *
     *
-*  you need to click on the **start button** to be able **to launch the timer** and then play the game and your moves
-* to move the piece, you need to **click and slide** the piece to their destination 
-* there is a result at the end with a **victory menu** where you **still can undo the ending move** to change the game outcome
+* You need to click on the **start button** to be able **to launch the timer** and then play the game and your moves
+* To move the piece, you need to **click and slide** the piece to their destination 
+* There is a result at the end with a **victory menu** where you **still can undo the ending move** to change the game outcome
+* You can see the **last 10 complete moves of the log** of the game _(Move like Nbd2 aren't represented here, only Nd2 will be shown, every thing else is the formal chess game log)_
+* When playing against an AI, it will show the **search depth reached**, the **move made** _(evaluated as best)_ and the **evaluation** of the move _(the score or the fact that it was taken from the opening book)_
 
 #### Gameplay choice menu
 <img src="./Game_Exemples/Gameplay_Choice_Screenshot.png" alt="Gameplay_Choice_Screenshot" width="350" height="225"/>
