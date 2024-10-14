@@ -8,8 +8,6 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 [Emphasis](#emphasis)  
 
 
-
-
 ## what has been done : 
 - Using Images and Sounds folder for the render and the chess sounds
 - AI.c + Evaluation.c + Move_Ordering.c + Pieces_Squares_Tables.c + Pre_Computed_Data + Search.c + Transposition_Table.c : implementation of the AI part described later in this README
@@ -24,17 +22,13 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 - Utility.c : creating all the useful functions that are used in the game but not part of the game
 
 
-
-
-
-
 ## About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
-- https://www.libsdl.org / https://wiki.libsdl.org/SDL2/FrontPage for everything, with installation setup or link to the code of the SDL 
-- the wiki_lib is very useful to be able to easily search function, things that can be done and how to implement, it's making us gain time
-- --> one way to do it is by searching from the type of category of functions that act on differents parts : https://wiki.libsdl.org/SDL2/APIByCategory
-- --> the other way is by searching the name, but it requires to know well the library and what it can do : https://wiki.libsdl.org/SDL2/CategoryAPI
-- I've succeeded this time to download the sdl_ttf and sdl_image extensions, thus the graphics were way easier to implement
+* [SDL website](https://www.libsdl.org) / [SDL library](https://wiki.libsdl.org/SDL2/FrontPage) for everything, with installation setup or link to the code of the SDL 
+* the wiki_lib is very useful to be able to easily search function, things that can be done and how to implement, to gain time by searching 
+... - The type of category of functions that act on differents parts ([Search by Category](https://wiki.libsdl.org/SDL2/APIByCategory))
+... - The name of the function , but it requires to know well the library and what it can do ([Search by Name](https://wiki.libsdl.org/SDL2/CategoryAPI))
+* I've succeeded this time to download the sdl_ttf and sdl_image extensions, thus the graphics were way easier to implement
 
 
 ## Concerning the tests
