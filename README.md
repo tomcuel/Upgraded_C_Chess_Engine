@@ -1,6 +1,6 @@
 # Chess Engine in C 
 > Here is the continuation of the chess game programming project. It's an upgrade compared to the previous chess engine where lany things related to the game has been changed.
-The graphic interface has been modified a bit. To make it faster and have a better AI, I changed a lot of the way to calculate things. The AI also uses an opening book. I also added some keyboard shortcuts to easily proceed the tests.
+The graphic interface has been modified a bit. To make it faster and have a better AI, I changed a lot of the way to calculate things. The AI also uses transpositions tables, iterative deepening and an opening book, with a much faster move generation. I also added some keyboard shortcuts to easily proceed the tests.
 
 #### Tables of contents
 * [Folders](#folders)  
@@ -45,10 +45,19 @@ In the root of the project folder :
 #### How to use the keyboard keys and the clicks on screen
 * After launching it, you have to **click on the different texts or rectangle buttons** to perfom the task you want 
 * They **are shortcuts** not to lose time waiting for the menus to work _(these are in the **Chess_Game.c** file at the **SDL_KEYDOWN** part during the main loop of the game)_
-    * `esc` :
-    * `a` :
-    * `d` : 
-    *
+    * `esc` : quit the game and download its current state
+    * `a` : setup a game AIvsAI with the preselected AI levels
+    * `d` : download its current state
+    * `g`: generates all the possibles moves and show the current log content
+    * `h`: setup a game for two humans player
+    * `l`: setup a game HUMANvsAI with the preselected AI settings
+    * `o`: load the previous game saved to continue playing it
+    * `p`: pause the game _(used to stop the AI to search moves when we want to undo something)_
+    * `r`: restart a game
+    * `s`: start a game
+    * `t`: show the content of the transposition tables
+    * `u`: undo the last move made
+    * `z`: get the current zobrist key of the current state of the chessboard
 * You need to click on the **start button** to be able **to launch the timer** and then play the game and your moves
 * To move the piece, you need to **click and slide** the piece to their destination 
 * There is a result at the end with a **victory menu** where you **still can undo the ending move** to change the game outcome
