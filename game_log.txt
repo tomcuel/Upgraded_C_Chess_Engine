@@ -1,0 +1,19 @@
+Formal Log :
+
+
+Game Settings :
+Game Mode : 0
+white_player_type : 0
+white_AI_difficulty : 0
+black_player_type : 0
+black_AI_difficulty : 0
+player_that_is_playing : 0
+color_of_player_that_is_playing : 0
+loosing_player : 2
+time_mode : 2
+time_at_start : 0.000000
+blitz_time : 0.000000
+white_time_remaining : 0.000000
+black_time_remaining : 0.000000
+
+Log :
