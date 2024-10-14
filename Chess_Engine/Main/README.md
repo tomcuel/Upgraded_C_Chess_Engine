@@ -11,7 +11,7 @@ Main/
 ```
 
 
-#### limitations : 
+#### Limitations : 
 * Opening and charging the game through the log will only make queens out of the promoted pawn
 * The download_log function will erase the file "game_log.txt" and its data. To keep a game, you need to change the filename so it's not erased 
 * The file to download the log isn't only the classic game log, since it would have required a lot more to extract the moves and set up the game 
