@@ -1,5 +1,5 @@
-# Introduction 
-Here is the continuation of the chess game programming project. It's an upgrade compared to the previous chess engine where lany things related to the game has been changed.
+# Chess Engine in C 
+> Here is the continuation of the chess game programming project. It's an upgrade compared to the previous chess engine where lany things related to the game has been changed.
 The graphic interface has been modified a bit. To make it faster and have a better AI, I changed a lot of the way to calculate things. The AI also uses an opening book. I also added some keyboard shortcuts to easily proceed the tests.
 
 #### Tables of contents
@@ -37,8 +37,8 @@ Here's the website to find out more about this library (which allows us to make 
 
 ## To run this project : 
 In the root of the project folder
-* do the command "make" to create all the .o and .x file
-* do the command "make realclean" to clean all the .x and .o file everywhere in the project
+* do the command **make** to create all the .o and .x file
+* do the command **make realclean** to clean all the .x and .o file everywhere in the project
 * launch the game with **./Chess_Engine/Chess_Game.x**
 
 
