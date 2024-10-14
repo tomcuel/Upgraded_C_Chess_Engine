@@ -78,7 +78,7 @@ In the root of the project folder :
 <img src="./Game_Exemples/Victory_Menu_Screenshot.png" alt="Victory_Menu_Screenshot" width="350" height="225"/>
 
 #### Undoing the victory menu
-<img src="./Game_Exemples/Coming_Back_From_Victory_Menu_Screenshot.png alt="Coming_Back_From_Victory_Menu_Screenshot" width="350" height="225"/>
+<img src="./Game_Exemples/Coming_Back_From_Victory_Menu_Screenshot.png" alt="Coming_Back_From_Victory_Menu_Screenshot" width="350" height="225"/>
 
 
 
