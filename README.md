@@ -115,7 +115,8 @@ make other function
 header of the function 
 
 
-#endif /* __FILENAME_H__ */```
+#endif /* __FILENAME_H__ */
+```
 
 
 ### .c file : 
@@ -136,4 +137,5 @@ function_2
 …
 
 
-function_n```
+function_n
+```
