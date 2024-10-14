@@ -39,9 +39,9 @@ Here's the website to find out more about this library (which allows us to make 
 
 ## To run this project : 
 In the root of the project folder
-* do the command **make** to create all the .o and .x file
-* do the command **make realclean** to clean all the .x and .o file everywhere in the project
-* launch the game with **./Chess_Engine/Chess_Game.x**
+* do the command `make` to create all the .o and .x file
+* do the command `make realclean` to clean all the .x and .o file everywhere in the project
+* launch the game with `./Chess_Engine/Chess_Game.x`
 
 
 ## To play the game 
