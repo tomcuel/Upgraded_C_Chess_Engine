@@ -7,6 +7,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Game Settings summary
+// This module is responsible for creating the game settings
 /**
  * Game_Settings is a structure that represents the game settings.
  * 

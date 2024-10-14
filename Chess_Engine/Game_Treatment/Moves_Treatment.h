@@ -8,8 +8,8 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////
-// Board summary
-// This module is responsible for creating the board of the game, the bitboards, and the captured pieces and the score, as well as treatming how the make_move and undo_function change the different structures
+// Moves_Treatment summary
+// This module is responsible for dealing with the moves of the game, the precomputed attacks, and the legality of the moves 
 /**
  * A summary of the supported functions is given below:
  * 
