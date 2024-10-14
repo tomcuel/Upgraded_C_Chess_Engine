@@ -31,6 +31,7 @@ Upgraded_Chess_Engine/
 └── Sounds/                   # Sound files for the project
 ```
 
+
 ## Direct links to folders 
 * [Chess Engine](./Chess_Engine/) : 
     * [AI_Data](./Chess_Engine/AI_Data/) : datas used for the AI search later
