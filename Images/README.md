@@ -2,8 +2,8 @@
 
 #### Table of contents
 
-[Chess Pieces](#chess-pieces)
-[Buttons](#buttons-and-images)
+* [Chess Pieces](#chess-pieces)
+* [Buttons](#buttons-and-images)
 
 
 ## Chess Pieces
