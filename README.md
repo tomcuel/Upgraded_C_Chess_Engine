@@ -51,6 +51,8 @@ In the root of the project folder :
 - to move the piece, you need to click and slide the piece to their destination 
 - it's better to use the "p" touch while playing a match against the AI, to avoid losing time and moves made of the AI to be made during this time, because we need the game to be on pause to undo moves (with "u" or with the in-game button)
 - there is a result at the end with a victory menu where you still can undo the ending move to change the game outcome
+#### Start of the game screenshot
+![test](./Game_Exemples/Start_Game_Screenshot.png)
 
 
 
@@ -121,7 +123,7 @@ header of the function
 
 #### .c file 
 * will not include the header, but it will be commented to know what are the things done inside the different functions
-* code structure : (spacing the code to make it easy to copy and to understand)
+* code structure : (spacing and commenting the code to make it easy to copy and to understand)
 
 ```c
 #include "filename.h"
