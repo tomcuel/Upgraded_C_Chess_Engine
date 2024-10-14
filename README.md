@@ -57,9 +57,9 @@ In the root of the project folder
 ## Structure of each file : 
 
 ### .h file : 
-- - will have the explications concerning the description of the function and what I will used for 
-- - will also give the parameters the function is taking 
-- - code structure : 
+* will have the explications concerning the description of the function and what I will used for 
+* will also give the parameters the function is taking 
+* code structure : 
 
 ```c
 #ifndef __FILENAME_H__
@@ -120,8 +120,8 @@ header of the function
 
 
 ### .c file : 
-- - will not include the header, but it will be commented to know what are the things done inside the different functions
-- - code structure : (spacing the code to make it easy to copy and to understand)
+* will not include the header, but it will be commented to know what are the things done inside the different functions
+* code structure : (spacing the code to make it easy to copy and to understand)
 
 ```c
 #include "filename.h"
