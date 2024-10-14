@@ -61,7 +61,7 @@ In the root of the project folder
 - - will also give the parameters the function is taking 
 - - code structure : 
 
-'#ifndef __FILENAME_H__
+`#ifndef __FILENAME_H__
 #define __FILENAME_H__
 
 
@@ -114,14 +114,14 @@ make other function
 header of the function 
 
 
-#endif /* __FILENAME_H__ */'
+#endif /* __FILENAME_H__ */`
 
 
 ### .c file : 
 - - will not include the header, but it will be commented to know what are the things done inside the different functions
 - - code structure : (spacing the code to make it easy to copy and to understand)
 
-'#include "filename.h"
+`#include "filename.h"
 
 
 function_1
@@ -134,4 +134,4 @@ function_2
 …
 
 
-function_n'
+function_n`
