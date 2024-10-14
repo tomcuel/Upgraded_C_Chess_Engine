@@ -33,10 +33,6 @@ Here's the website to find out more about this library (which allows us to make 
 * I've succeeded this time to download the sdl_ttf and sdl_image extensions, thus the graphics were way easier to implement
 
 
-## Concerning the tests
-* everything has been test after its implementation to make sure it does what it was supposed to do
-
-
 ## To run this project
 In the root of the project folder : 
 * do the command `make` to create all the .o and .x file
@@ -45,16 +41,27 @@ In the root of the project folder :
 
 
 ## To play the game 
-- after launching it, you have to click on the different texts linked to the choices to make 
-- they are shortcuts not to lose time waiting for the menus to work (these are in the Chess_Game.c file at the SDL_KEYDOWN part during the main loop of the game)
-- you need to click on the start button to be able to move a piece and to launch the timer
-- to move the piece, you need to click and slide the piece to their destination 
-- it's better to use the "p" touch while playing a match against the AI, to avoid losing time and moves made of the AI to be made during this time, because we need the game to be on pause to undo moves (with "u" or with the in-game button)
-- there is a result at the end with a victory menu where you still can undo the ending move to change the game outcome
+
+#### How to use the keyboard keys and the clicks on screen
+* after launching it, you have to **click on the different texts or rectangle buttons** to perfom the task you want 
+* they **are shortcuts** not to lose time waiting for the menus to work _(these are in the **Chess_Game.c** file at the **SDL_KEYDOWN** part during the main loop of the game)_
+    * it's better to use the "p" touch while playing a match against the AI, to avoid losing time and moves made of the AI to be made during this time, because we need the game to be on pause to undo moves (with "u" or with the in-game button)
+*  you need to click on the **start button** to be able **to launch the timer** and then play the game and your moves
+* to move the piece, you need to **click and slide** the piece to their destination 
+* there is a result at the end with a **victory menu** where you **still can undo the ending move** to change the game outcome
+
+#### Gameplay choice menu
+<img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="350" height="225"/>
+
 #### Start of the game screenshot
 <img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="350" height="225"/>
 
+#### In game screenshot
+<img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="350" height="225"/>
 
+
+## Concerning the tests
+* everything has been test after its implementation to make sure it does what it was supposed to do
 
 
 ## Structure of each file
@@ -120,7 +127,6 @@ header of the function
 
 #endif /* __FILENAME_H__ */
 ```
-
 
 #### .c file 
 * will not include the header, but it will be commented to know what are the things done inside the different functions
