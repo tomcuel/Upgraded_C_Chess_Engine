@@ -61,7 +61,8 @@ In the root of the project folder
 - - will also give the parameters the function is taking 
 - - code structure : 
 
-```#ifndef __FILENAME_H__
+```c
+#ifndef __FILENAME_H__
 #define __FILENAME_H__
 
 
@@ -121,7 +122,8 @@ header of the function
 - - will not include the header, but it will be commented to know what are the things done inside the different functions
 - - code structure : (spacing the code to make it easy to copy and to understand)
 
-```#include "filename.h"
+```c
+#include "filename.h"
 
 
 function_1
