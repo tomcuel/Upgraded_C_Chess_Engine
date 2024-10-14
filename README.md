@@ -11,16 +11,16 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 * [Structure of each file](#structure-of-each-file)
 
 ## Folders 
-* [Chess Engine](./Chess_Engine/) : 
-    * [AI_Data](./Chess_Engine/AI_Data/) : datas used for the AI search later
-    * [AI_Functions](./Chess_Engine/AI_Functions/) : make the AI search and play
-    * [Game_Treatment](./Chess_Engine/Game_Treatment/) : functions that are linked to the game state and treat what happens
-    * [Main](./Chess_Engine/Main/) : functions where everything is linked together
-    * [Useful](./Chess_Engine/Useful/) : functions not chess related to fast things up
-* [Evolution](./Evolution/)
-* [Game Exemples](./Game_Exemples/)
-* [Images](./Images/)
-* [Sounds](./Sounds/)
+| [Chess Engine](./Chess_Engine/) : 
+    | [AI_Data](./Chess_Engine/AI_Data/) : datas used for the AI search later
+    | [AI_Functions](./Chess_Engine/AI_Functions/) : make the AI search and play
+    | [Game_Treatment](./Chess_Engine/Game_Treatment/) : functions that are linked to the game state and treat what happens
+    | [Main](./Chess_Engine/Main/) : functions where everything is linked together
+    | [Useful](./Chess_Engine/Useful/) : functions not chess related to fast things up
+| [Evolution](./Evolution/)
+| [Game Exemples](./Game_Exemples/)
+| [Images](./Images/)
+| [Sounds](./Sounds/)
 
 ## About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
