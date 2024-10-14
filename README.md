@@ -1,11 +1,16 @@
 # Introduction 
-Here is the continuation of the chess game programming project completed in class. It's an upgrade where everything related to the game has been changed.
-The graphic interface has been modified. To make it faster and have a better AI, I'm using bitboards (64bits integer), it did change almost every function. I also added some keyboard shortcuts to easily proceed the tests.
+Here is the continuation of the chess game programming project. It's an upgrade compared to the previous chess engine where lany things related to the game has been changed.
+The graphic interface has been modified a bit. To make it faster and have a better AI, I changed a lot of the way to calculate things. The AI also uses an opening book. I also added some keyboard shortcuts to easily proceed the tests.
 
-download_log + show log : blc de regarder si on a deux cavaliers qui peuvent manger une pièce et donc on note la colonne ou le rang de celui qui attaque, dans les moves values c'est présent 
---> book opening avec ça 
---> book opening avec 12 openings de profondeur (18 déjà tester), des problèmes de chargement du fichier et de méthode de calculs des values des moves m'ont restreint, j'aurais du essayer de tout changer pour arriver à aller chercher plus loin sans qu'il n'y ai d'abération (toujours possible de jouer comme ça mais parfois ça va crasher ou faire n'importe quoi ce qui peut être frustrant)
-le lancement va faire crasher sur la mémoire, de temps en temps sur l'ouverture de fichiers depuis l'ajout de l'openning book, sinon ça ne crashera pas normalement
+# 
+
+#### Tables of contents
+
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+
+
+
 
 # About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
@@ -87,7 +92,19 @@ In the root of the project folder
 - we have the same thing as the level 6 but now in the Alpha_Beta_Pruning algorithm we search at different depth depending if the move is ranked highly in the move ordering or if it's an important one that needs more investigation (depth extensions)
 
 
-# Structure of the code
+
+
+download_log + show log : blc de regarder si on a deux cavaliers qui peuvent manger une pièce et donc on note la colonne ou le rang de celui qui attaque, dans les moves values c'est présent 
+--> book opening avec ça 
+--> book opening avec 12 openings de profondeur (18 déjà tester), des problèmes de chargement du fichier et de méthode de calculs des values des moves m'ont restreint, j'aurais du essayer de tout changer pour arriver à aller chercher plus loin sans qu'il n'y ai d'abération (toujours possible de jouer comme ça mais parfois ça va crasher ou faire n'importe quoi ce qui peut être frustrant)
+le lancement va faire crasher sur la mémoire, de temps en temps sur l'ouverture de fichiers depuis l'ajout de l'openning book, sinon ça ne crashera pas normalement
+
+
+
+
+
+
+# Structure of each file : 
 
 ## .h file : 
 - - will have the explications concerning the description of the function and what I will used for 
@@ -150,7 +167,7 @@ header of the function
 #endif /* __FILENAME_H__ */
 
 
-## .c file  : 
+## .c file : 
 - - will not include the header, but it will be commented to know what are the things done inside the different functions
 - - code structure : (spacing the code to make it easy to copy and to understand)
 
