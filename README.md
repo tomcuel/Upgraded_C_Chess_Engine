@@ -12,6 +12,7 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 
 ## Folders 
 Upgraded_Chess_Engine/
+.
 │
 ├── [Chess Engine](./Chess_Engine/)                   # Contains the core components of the chess engine
 │   ├── [AI_Data](./Chess_Engine/AI_Data/)            # Data used for the AI search later
