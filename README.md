@@ -10,7 +10,7 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 * [To play the game](#to-play-the-game)
 * [Structure of each file](#structure-of-each-file)
 
-## Folders : 
+## Folders 
 - Using Images and Sounds folder for the render and the chess sounds
 - AI.c + Evaluation.c + Move_Ordering.c + Pieces_Squares_Tables.c + Pre_Computed_Data + Search.c + Transposition_Table.c : implementation of the AI part described later in this README
 - Board.c : creating the bitboards, and the captured pieces and the score, as well as treating how the make_move and undo_function change the different structures for a human player
@@ -37,8 +37,8 @@ Here's the website to find out more about this library (which allows us to make 
 * everything has been test after its implementation to make sure it does what it was supposed to do
 
 
-## To run this project : 
-In the root of the project folder
+## To run this project
+In the root of the project folder : 
 * do the command `make` to create all the .o and .x file
 * do the command `make realclean` to clean all the .x and .o file everywhere in the project
 * launch the game with `./Chess_Engine/Chess_Game.x`
@@ -54,9 +54,9 @@ In the root of the project folder
 
 
 
-## Structure of each file : 
+## Structure of each file
 
-### .h file : 
+#### .h file
 * will have the explications concerning the description of the function and what I will used for 
 * will also give the parameters the function is taking 
 * code structure : 
@@ -119,7 +119,7 @@ header of the function
 ```
 
 
-### .c file : 
+#### .c file 
 * will not include the header, but it will be commented to know what are the things done inside the different functions
 * code structure : (spacing the code to make it easy to copy and to understand)
 
