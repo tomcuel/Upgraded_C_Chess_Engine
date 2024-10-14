@@ -11,23 +11,50 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 * [Structure of each file](#structure-of-each-file)
 
 ## Folders 
+* [Chess Engine](./Chess_Engine/) : 
+    * [AI_Data](./Chess_Engine/AI_Data/) : datas used for the AI search later
+    * [AI_Functions](./Chess_Engine/AI_Functions/) : make the AI search and play
+    * [Game_Treatment](./Chess_Engine/Game_Treatment/) : functions that are linked to the game state and treat what happens
+    * [Main](./Chess_Engine/Main/) : functions where everything is linked together
+    * [Useful](./Chess_Engine/Useful/) : functions not chess related to fast things up
+* [Evolution](./Evolution/)
+* [Game Exemples](./Game_Exemples/)
+* [Images](./Images/)
+* [Sounds](./Sounds/)
+
+
 Upgraded_Chess_Engine/
-├── Chess_Engine/
-│   ├── AI_Data/              # Data used for the AI search later
-│   ├── AI_Functions/         # Makes the AI search and play
-│   ├── Game_Treatment/       # Functions linked to game state and process what happens
-│   ├── Main/                 # Where everything is linked together
-│   └── Useful/               # Functions unrelated to chess to speed things up
 │
-├── Evolution/                # Contains the project's evolution or experiments
+├── README.md                   # Documentation principale du projet
+├── requirements.txt            # Liste des dépendances du projet
+├── setup.py                    # Script d'installation pour le projet
 │
-├── Game_Exemples/            # Example games played by the engine
+├── Chess_Engine/               # Dossier source contenant le code de l'application
+│   ├── __init__.py             # Indique que ce dossier est un package Python
+│   ├── main.py                 # Point d'entrée principal de l'application
+│   ├── module1.py              # Module 1 de l'application
+│   └── module2.py              # Module 2 de l'application
 │
-├── Images/                   # Images used in the project
+├── tests/                      # Dossier contenant les tests
+│   ├── __init__.py             # Indique que ce dossier est un package Python
+│   ├── test_module1.py         # Tests pour module1
+│   └── test_module2.py         # Tests pour module2
 │
-└── Sounds/                   # Sound files for the project
-     
-     
+├── docs/                       # Dossier de documentation supplémentaire
+│   ├── index.md                # Page d'accueil de la documentation
+│   └── guide_utilisateur.md     # Guide utilisateur
+│
+├── data/                       # Dossier contenant les données (si applicable)
+│   ├── raw/                    # Données brutes
+│   └── processed/              # Données traitées
+│
+└── assets/                     # Dossier pour les fichiers statiques (images, sons, etc.)
+    ├── images/
+    │   └── logo.png            # Logo de l'application
+    └── audio/
+        └── theme.mp3           # Thème musical de l'application
+
+
 ## About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
 * [SDL website](https://www.libsdl.org) / [SDL library](https://wiki.libsdl.org/SDL2/FrontPage) for everything, with installation setup or link to the code of the SDL 
