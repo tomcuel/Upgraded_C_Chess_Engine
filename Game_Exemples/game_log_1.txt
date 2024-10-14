@@ -1,0 +1,33 @@
+Formal Log :
+1.Nf3 g6 2.d4 Bg7 3.g3 Nf6 4.Bg2 O-O 5.O-O d6 6.b3 Nd7 7.Bb2 d5 
+
+Game Settings :
+Game Mode : 1
+white_player_type : 0
+white_AI_difficulty : 0
+black_player_type : 1
+black_AI_difficulty : 7
+player_that_is_playing : 0
+color_of_player_that_is_playing : 0
+loosing_player : 2
+time_mode : 2
+time_at_start : 600.000000
+blitz_time : 0.000000
+white_time_remaining : 452.687378
+black_time_remaining : 569.982117
+
+Log :
+Move_value : 1350
+Move_value : 2998
+Move_value : 14027
+Move_value : 3517
+Move_value : 1422
+Move_value : 2942
+Move_value : 901
+Move_value : 12220
+Move_value : 8580
+Move_value : 2803
+Move_value : 1097
+Move_value : 3321
+Move_value : 578
+Move_value : 2283

@@ -1,0 +1,52 @@
+Formal Log :
+1.Nc3 d5 2.Nf3 Nf6 3.d4 Bf5 4.Be3 Nc6 5.Qd2 Qd6 6.Rd1 O-O-O 7.Rg1 e5 8.dxe5 Nxe5 9.Nxe5 Qxe5 10.Nxd5 Rxd5 11.Bd4 Qxh2 12.e4 Nxe4 13.Qd3 Bb4+ 14.Ke2 Qxg1 15.Qb3 Bg4+ 16.f3 Ng3+ 17.Kd3 
+
+Game Settings :
+Game Mode : 2
+white_player_type : 1
+white_AI_difficulty : 2
+black_player_type : 1
+black_AI_difficulty : 7
+player_that_is_playing : 1
+color_of_player_that_is_playing : 1
+loosing_player : 0
+time_mode : 2
+time_at_start : 600.000000
+blitz_time : 0.000000
+white_time_remaining : 599.989197
+black_time_remaining : 529.964355
+
+Log :
+Move_value : 1153
+Move_value : 14579
+Move_value : 1350
+Move_value : 2942
+Move_value : 14027
+Move_value : 2426
+Move_value : 1282
+Move_value : 2745
+Move_value : 707
+Move_value : 2811
+Move_value : 192
+Move_value : 11964
+Move_value : 391
+Move_value : 14644
+Move_value : 2331
+Move_value : 2346
+Move_value : 2325
+Move_value : 2347
+Move_value : 2258
+Move_value : 2299
+Move_value : 1748
+Move_value : 996
+Move_value : 14092
+Move_value : 1837
+Move_value : 1227
+Move_value : 1661
+Move_value : 772
+Move_value : 399
+Move_value : 1107
+Move_value : 1957
+Move_value : 1357
+Move_value : 1436
+Move_value : 1228

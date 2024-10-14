@@ -1,0 +1,28 @@
+Formal Log :
+1.f4 e5 2.fxe5 f6 3.exf6 Nh6 4.fxg7 Ng4 5.gxh8=Q 
+
+Game Settings :
+Game Mode : 0
+white_player_type : 0
+white_AI_difficulty : 0
+black_player_type : 0
+black_AI_difficulty : 0
+player_that_is_playing : 1
+color_of_player_that_is_playing : 1
+loosing_player : 2
+time_mode : 2
+time_at_start : 600.000000
+blitz_time : 0.000000
+white_time_remaining : 590.888367
+black_time_remaining : 565.344177
+
+Log :
+Move_value : 14157
+Move_value : 14644
+Move_value : 2333
+Move_value : 2933
+Move_value : 2916
+Move_value : 3070
+Move_value : 3501
+Move_value : 1967
+Move_value : 20470
