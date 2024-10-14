@@ -11,7 +11,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Openings summary
-// This module is responsible for the generation of the opening book and the management of the opening book
+// This module is responsible for the generation and management of the opening book
 /**
  * A summary of the supported functions is given below:
  * 
