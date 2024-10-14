@@ -45,9 +45,9 @@ In the root of the project folder :
 #### How to use the keyboard keys and the clicks on screen
 * After launching it, you have to **click on the different texts or rectangle buttons** to perfom the task you want 
 * They **are shortcuts** not to lose time waiting for the menus to work _(these are in the **Chess_Game.c** file at the **SDL_KEYDOWN** part during the main loop of the game)_
-    * 
-    *
-    *
+    * `esc` :
+    * `a` :
+    * `d` : 
     *
 * You need to click on the **start button** to be able **to launch the timer** and then play the game and your moves
 * To move the piece, you need to **click and slide** the piece to their destination 
