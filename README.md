@@ -11,18 +11,16 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 * [Structure of each file](#structure-of-each-file)
 
 ## Folders 
-- Using Images and Sounds folder for the render and the chess sounds
-- AI.c + Evaluation.c + Move_Ordering.c + Pieces_Squares_Tables.c + Pre_Computed_Data + Search.c + Transposition_Table.c : implementation of the AI part described later in this README
-- Board.c : creating the bitboards, and the captured pieces and the score, as well as treating how the make_move and undo_function change the different structures for a human player
-- Chess_Game.c : main function that launch the graphics part and treat the input of the user during the game, while managing the timer and the AI play 
-- Constants.c : definition of the differents constants used 
-- Download_log.c : functions that are related to download the game status in a file, and open a game depending on the file
-- Graphics.c : show the game graphics depending on which we're in
-- Log.c : creating the log of the game, whats happening after each move, and the log of the bitboards of the game
-- Move_Generator.c : generating all the possible moves, the state of the game and the IA making and undoing moves function
-- Settings.c : structure that represents the game settings
-- Utility.c : creating all the useful functions that are used in the game but not part of the game
-
+* [Chess Engine](./Chess_Engine/) : 
+    * [AI_Data](./Chess_Engine/AI_Data/) : datas used for the AI search later
+    * [AI_Functions](./Chess_Engine/AI_Functions/) : make the AI search and play
+    * [Game_Treatment](./Chess_Engine/Game_Treatment/) : functions that are linked to the game state and treat what happens
+    * [Main](./Chess_Engine/Main/) : functions where everything is linked together
+    * [Useful](./Chess_Engine/Useful/) : functions not chess related to fast things up
+* [Evolution](./Evolution/)
+* [Game Exemples](./Game_Exemples/)
+* [Images](./Images/)
+* [Sounds](./Sounds/)
 
 ## About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
