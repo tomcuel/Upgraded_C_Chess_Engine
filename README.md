@@ -11,16 +11,23 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 * [Structure of each file](#structure-of-each-file)
 
 ## Folders 
-| [Chess Engine](./Chess_Engine/) : 
-    | [AI_Data](./Chess_Engine/AI_Data/) : datas used for the AI search later
-    | [AI_Functions](./Chess_Engine/AI_Functions/) : make the AI search and play
-    | [Game_Treatment](./Chess_Engine/Game_Treatment/) : functions that are linked to the game state and treat what happens
-    | [Main](./Chess_Engine/Main/) : functions where everything is linked together
-    | [Useful](./Chess_Engine/Useful/) : functions not chess related to fast things up
-| [Evolution](./Evolution/)
-| [Game Exemples](./Game_Exemples/)
-| [Images](./Images/)
-| [Sounds](./Sounds/)
+Upgraded_Chess_Engine/
+│
+├── [Chess Engine](./Chess_Engine/)                   # Contains the core components of the chess engine
+│   ├── [AI_Data](./Chess_Engine/AI_Data/)            # Data used for the AI search later
+│   ├── [AI_Functions](./Chess_Engine/AI_Functions/)  # Makes the AI search and play
+│   ├── [Game_Treatment](./Chess_Engine/Game_Treatment/)  # Functions linked to game state and process what happens
+│   ├── [Main](./Chess_Engine/Main/)                  # Where everything is linked together
+│   └── [Useful](./Chess_Engine/Useful/)              # Functions unrelated to chess to speed things up
+│
+├── [Evolution](./Evolution/)                         # Contains the project's evolution or experiments
+│
+├── [Game Exemples](./Game_Exemples/)                 # Example games played by the engine
+│
+├── [Images](./Images/)                               # Images used in the project
+│
+└── [Sounds](./Sounds/)                               # Sound files for the project
+
 
 ## About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
