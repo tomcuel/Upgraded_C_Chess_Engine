@@ -52,7 +52,8 @@ In the root of the project folder :
 - it's better to use the "p" touch while playing a match against the AI, to avoid losing time and moves made of the AI to be made during this time, because we need the game to be on pause to undo moves (with "u" or with the in-game button)
 - there is a result at the end with a victory menu where you still can undo the ending move to change the game outcome
 #### Start of the game screenshot
-![test](./Game_Exemples/Start_Game_Screenshot.png)
+<img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="700" height="450"/>
+
 
 
 
