@@ -3,12 +3,11 @@
 The graphic interface has been modified a bit. To make it faster and have a better AI, I changed a lot of the way to calculate things. The AI also uses an opening book. I also added some keyboard shortcuts to easily proceed the tests.
 
 #### Tables of contents
+* [Folders](#folders)  
+* [About SDL](#about-SDL)  
 
-[Headers](#headers)  
-[Emphasis](#emphasis)  
 
-
-## what has been done : 
+## Folders : 
 - Using Images and Sounds folder for the render and the chess sounds
 - AI.c + Evaluation.c + Move_Ordering.c + Pieces_Squares_Tables.c + Pre_Computed_Data + Search.c + Transposition_Table.c : implementation of the AI part described later in this README
 - Board.c : creating the bitboards, and the captured pieces and the score, as well as treating how the make_move and undo_function change the different structures for a human player
