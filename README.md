@@ -26,8 +26,8 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
 * [SDL website](https://www.libsdl.org) / [SDL library](https://wiki.libsdl.org/SDL2/FrontPage) for everything, with installation setup or link to the code of the SDL 
 * the wiki_lib is very useful to be able to easily search function, things that can be done and how to implement, to gain time by searching 
-...- The type of category of functions that act on differents parts ([Search by Category](https://wiki.libsdl.org/SDL2/APIByCategory))
-...- The name of the function , but it requires to know well the library and what it can do ([Search by Name](https://wiki.libsdl.org/SDL2/CategoryAPI))
+- The type of category of functions that act on differents parts ([Search by Category](https://wiki.libsdl.org/SDL2/APIByCategory))
+- The name of the function , but it requires to know well the library and what it can do ([Search by Name](https://wiki.libsdl.org/SDL2/CategoryAPI))
 * I've succeeded this time to download the sdl_ttf and sdl_image extensions, thus the graphics were way easier to implement
 
 
