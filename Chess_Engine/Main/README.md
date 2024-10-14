@@ -3,11 +3,11 @@
 #### Path tree
 ```
 Main/
-├── Chess_Game # file that linked the graphics, the AI part and the player inputs
+├── Chess_Game # main function that launch the graphics part and treat the input of the user during the game, while managing the timer and the AI play 
 │
-├── Graphics # deals with showing all the graphics
+├── Graphics # deals with showing all the graphics depending on the game status
 │
-└── Download_Log # manage how to save or open a game log, to get the current game state        
+└── Download_Log # functions that are related to download the game status in a file, and open a game depending on the file   
 ```
 
 
