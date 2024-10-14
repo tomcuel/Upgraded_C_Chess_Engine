@@ -13,7 +13,7 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 
 
 ## Path tree
-...
+
 Upgraded_Chess_Engine/
 ├── Chess_Engine/
 │   ├── AI_Data/              # Data used for the AI search later
@@ -29,7 +29,7 @@ Upgraded_Chess_Engine/
 ├── Images/                   # Images used in the project
 │
 └── Sounds/                   # Sound files for the project
-...
+
 
 ## Direct links to folders 
 * [Chess Engine](./Chess_Engine/) : 
