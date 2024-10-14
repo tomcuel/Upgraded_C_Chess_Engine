@@ -45,19 +45,41 @@ In the root of the project folder :
 #### How to use the keyboard keys and the clicks on screen
 * after launching it, you have to **click on the different texts or rectangle buttons** to perfom the task you want 
 * they **are shortcuts** not to lose time waiting for the menus to work _(these are in the **Chess_Game.c** file at the **SDL_KEYDOWN** part during the main loop of the game)_
-    * it's better to use the "p" touch while playing a match against the AI, to avoid losing time and moves made of the AI to be made during this time, because we need the game to be on pause to undo moves (with "u" or with the in-game button)
+    * 
+    *
+    *
+    *
 *  you need to click on the **start button** to be able **to launch the timer** and then play the game and your moves
 * to move the piece, you need to **click and slide** the piece to their destination 
 * there is a result at the end with a **victory menu** where you **still can undo the ending move** to change the game outcome
 
 #### Gameplay choice menu
+<img src="./Game_Exemples/Gameplay_Choice_Screenshot.png" alt="Gameplay_Choice_Screenshot" width="350" height="225"/>
+
+#### Color choice menu
+<img src="./Game_Exemples/Color_Choice_Screenshot.png" alt="Color_Choice_Screenshot" width="350" height="225"/>
+
+#### AI difficulty choice menu
+<img src="./Game_Exemples/AI_Choice_Screenshot.png" alt="AI_Choice_Screenshot" width="350" height="225"/>
+
+#### Time choice menu
+<img src="./Game_Exemples/Time_Choice_Screenshot.png" alt="Time_Choice_Screenshot" width="350" height="225"/>
+
+#### Start of the game
 <img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="350" height="225"/>
 
-#### Start of the game screenshot
-<img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="350" height="225"/>
+#### Opening Book used by AI
+<img src="./Game_Exemples/Opening_Book_Move_Screenshot.png" alt="Opening_Book_Move_Screenshot" width="350" height="225"/>
 
 #### In game screenshot
-<img src="./Game_Exemples/Start_Game_Screenshot.png" alt="Start_Game_Screenshot" width="350" height="225"/>
+<img src="./Game_Exemples/In_Game_Screenshot.png" alt="In_Game_Screenshot" width="350" height="225"/>
+
+#### Victory menu choice
+<img src="./Game_Exemples/Victory_Menu_Screenshot.png" alt="Victory_Menu_Screenshot" width="350" height="225"/>
+
+#### Undoing the victory menu
+<img src="./Game_Exemples/Coming_Back_From_Victory_Menu_Screenshot.png alt="Coming_Back_From_Victory_Menu_Screenshot" width="350" height="225"/>
+
 
 
 ## Concerning the tests
