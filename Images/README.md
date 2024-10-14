@@ -8,7 +8,7 @@
 
 ## Chess Pieces
 
-[Chess Pieces](./PNG_Chess_Game_Pieces/)
+[Chess Pieces Folder](./PNG_Chess_Game_Pieces/)
 #### White Pawn
 <img src="./PNG_Chess_Game_Pieces/white_pawn.png" alt="White_Pawn" width="100" height="100"/>
 
@@ -18,7 +18,7 @@
 
 ## Buttons and Images
 
-[Buttons](./Buttons/) 
+[Buttons Folder](./Buttons/) 
 #### Victory Image
 <img src="./Buttons/victory.jpg" alt="White_Pawn" width="100" height="50"/>
 
