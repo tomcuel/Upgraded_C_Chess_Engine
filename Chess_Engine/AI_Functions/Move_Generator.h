@@ -12,7 +12,7 @@
 /////////////////////////////////////////////////////////////////////////////////////
 // Move_Generator summary
 // This module is used to generate all the possible moves, the state of the game and the IA making and undoing moves function
-// it's also use a function to get the check state of the game
+// it's also a function to get the check state of the game
 /**
  * A summary of the supported functions is given below:
  * 

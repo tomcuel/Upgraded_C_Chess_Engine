@@ -12,7 +12,7 @@
 
 /////////////////////////////////////////////////////////////////////////////////////
 // Search summary
-// This module is responsible for the search algorithms of the AI, to find the best move to play (iterative deepening, alpha-beta pruning, quiescence search)
+// This module is responsible for the search algorithms of the level 7 AI, to find the best move to play (iterative deepening, alpha-beta pruning, quiescence search, transposition tables, opening book)
 /**
  * A summary of the supported functions is given below:
  * 
