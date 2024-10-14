@@ -12,24 +12,22 @@ The graphic interface has been modified a bit. To make it faster and have a bett
 
 ## Folders 
 Upgraded_Chess_Engine/
-.
+├── Chess_Engine/
+│   ├── AI_Data/              # Data used for the AI search later
+│   ├── AI_Functions/         # Makes the AI search and play
+│   ├── Game_Treatment/       # Functions linked to game state and process what happens
+│   ├── Main/                 # Where everything is linked together
+│   └── Useful/               # Functions unrelated to chess to speed things up
 │
-├── [Chess Engine](./Chess_Engine/)                   # Contains the core components of the chess engine
-│   ├── [AI_Data](./Chess_Engine/AI_Data/)            # Data used for the AI search later
-│   ├── [AI_Functions](./Chess_Engine/AI_Functions/)  # Makes the AI search and play
-│   ├── [Game_Treatment](./Chess_Engine/Game_Treatment/)  # Functions linked to game state and process what happens
-│   ├── [Main](./Chess_Engine/Main/)                  # Where everything is linked together
-│   └── [Useful](./Chess_Engine/Useful/)              # Functions unrelated to chess to speed things up
+├── Evolution/                # Contains the project's evolution or experiments
 │
-├── [Evolution](./Evolution/)                         # Contains the project's evolution or experiments
+├── Game_Exemples/            # Example games played by the engine
 │
-├── [Game Exemples](./Game_Exemples/)                 # Example games played by the engine
+├── Images/                   # Images used in the project
 │
-├── [Images](./Images/)                               # Images used in the project
-│
-└── [Sounds](./Sounds/)                               # Sound files for the project
-
-
+└── Sounds/                   # Sound files for the project
+     
+     
 ## About SDL
 Here's the website to find out more about this library (which allows us to make graphics and play on them, for example): 
 * [SDL website](https://www.libsdl.org) / [SDL library](https://wiki.libsdl.org/SDL2/FrontPage) for everything, with installation setup or link to the code of the SDL 
