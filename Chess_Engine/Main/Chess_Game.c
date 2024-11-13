@@ -262,10 +262,10 @@ int main (){
                             game_settings->white_AI_difficulty = NONE;
                             game_settings->black_AI_difficulty = LVL7;
                             // setting up the time
-                            game_settings->time_at_start = 10*60;
-                            game_settings->white_time_remaining = 10*60;
-                            game_settings->black_time_remaining = 10*60;
-                            game_settings->blitz_time = 0;
+                            game_settings->time_at_start = 5*60;
+                            game_settings->white_time_remaining = 5*60;
+                            game_settings->black_time_remaining = 5*60;
+                            game_settings->blitz_time = 3;
                             game_settings->is_game_lost_on_time = false;
                             // setting up to play the game
                             is_running_game = CHESSBOARD_RENDER;
@@ -2119,6 +2119,7 @@ int main (){
 
                         }
                         // a move has been made, so we add the blitz time mode to the player that just played
+                        // we also download the current state of the game in case of a crash
                         else if (check_state_after_move == NO_CHECK){
                             // if the white player is playing, we need to udpate the time of the black player
                             if (game_settings->color_of_player_that_is_playing == WHITE){
@@ -2128,6 +2129,8 @@ int main (){
                             else if (game_settings->color_of_player_that_is_playing == BLACK){
                                 game_settings->white_time_remaining += game_settings->blitz_time;
                             }
+                            // we download the current state of the game in case of a crash
+                            download_log();
                         }
 
                         // playing the correct type of sound depending on the move made 
@@ -2397,6 +2400,9 @@ int main (){
                 game_settings->white_time_remaining -= time_AI_search / 1000; // the SDL_GetTicks() function gives us the time in milliseconds
                 game_settings->white_time_remaining += game_settings->blitz_time; // adding the blitz time to the white player
             }
+
+            // we download the current state of the game in case of a crash
+            download_log();
 
         }
 

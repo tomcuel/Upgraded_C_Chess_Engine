@@ -84,6 +84,7 @@ In the root of the project folder :
 * There is a result at the end with a **victory menu** where you **still can undo the ending move** to change the game outcome
 * You can see the **last 10 complete moves of the log** of the game _(Move like Nbd2 aren't represented here, only Nd2 will be shown, every thing else is the formal chess game log)_
 * When playing against an AI, it will show the **search depth reached**, the **move made** _(evaluated as best)_ and the **evaluation** of the move _(the score or the fact that it was taken from the opening book)_
+* If the game crashes when playing against the AI _(it can happen sometimes)_, the log is updated after each move made, so you can load your game from where it was aborted.
 
 #### Gameplay choice menu
 <img src="./Game_Exemples/Gameplay_Choice_Screenshot.png" alt="Gameplay_Choice_Screenshot" width="350" height="225"/>
